@@ -18,6 +18,8 @@ def get_playable_podcast1(soup1):
             link = content.find('enclosure')
             link = link.get('url')
             print("\n\nLink: ", link)
+            thumbnail = content.find('media:content')
+            thumbnail = thumbnail.get('url')
             title = content.find('title')
             title = title.get_text()
         except AttributeError:
@@ -25,7 +27,8 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://reason.com/wp-content/uploads/powerpress/podcast_logo_soundcloud.jpg",
+#                'thumbnail': "https://reason.com/wp-content/uploads/powerpress/podcast_logo_soundcloud.jpg",
+                'thumbnail': thumbnail,
         }
         subjects.append(item)
     return subjects
@@ -47,6 +50,8 @@ def get_playable_podcast(soup1):
             link = content.find('enclosure')
             link = link.get('url')
             print("\n\nLink: ", link)
+            thumbnail = content.find('media:content')
+            thumbnail = thumbnail.get('url')
             title = content.find('title')
             title = title.get_text()
         except AttributeError:
@@ -54,7 +59,7 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://reason.com/wp-content/uploads/powerpress/podcast_logo_soundcloud.jpg",
+                'thumbnail': thumbnail,
         }
         subjects.append(item)
     return subjects
