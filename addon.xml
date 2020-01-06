@@ -14,18 +14,20 @@
     <platform>all</platform>
     <language>en_us</language>
     <summary lang="en">Reason Podcast</summary>
-    <description lang="en">Founded in 1968, Reason is the planet&#8217;s leading source of news, politics, and culture from a libertarian perspective. Hosted by Nick Gillespie, Matt Welch, and other Reason journalists, our podcast explores &#8220;free minds and free markets.&#8221; It features provocative, in-depth interviews with authors, comedians, filmmakers, musicians, economists, scientists, business leaders, and elected officials. Keep up to date on the latest happenings in our increasingly libertarian world from a point of view you won&#8217;t get from legacy media and boring old left-right, liberal-conservative publications.</description>
+    <description lang="en">Founded in 1968, Reason is the planet's leading source of news, politics, and culture from a libertarian perspective. Hosted by Nick Gillespie, Matt Welch, and other Reason journalists, our podcast explores "free minds and free markets". It features provocative, in-depth interviews with authors, comedians, filmmakers, musicians, economists, scientists, business leaders, and elected officials. Keep up to date on the latest happenings in our increasingly libertarian world from a point of view you won't get from legacy media and boring old left-right, liberal-conservative publications.</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>
     <source>https://github.com/leopheard/ReasonPodcast</source>
-    <website></website>
+    <website>https://reason.com/podcasts/</website>
         	<assets>
 			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/1.jpg</screenshot>
 			<screenshot>resources/media/2.jpg</screenshot>
-			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
+			<screenshot>resources/media/4.jpg</screenshot>
+			<screenshot>resources/media/5.jpg</screenshot>
 		</assets>
   </extension>
 </addon>

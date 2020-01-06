@@ -14,20 +14,16 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgctxt "#30000"
-msgid "All episodes"
-msgstr ""
-
 msgctxt "#30001"
-msgid "Latest episodes"
+msgid "The Reason Roundtable"
 msgstr ""
 
 msgctxt "#30002"
-msgid ""
+msgid "The Reason Interview With Nick Gillespie"
 msgstr ""
 
 msgctxt "#30003"
-msgid ""
+msgid "The Soho Forum Debates"
 msgstr ""
 
 # empty string with id 32003
