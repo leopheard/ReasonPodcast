@@ -7,6 +7,16 @@ def get_soup1(url1):
     soup1 = BeautifulSoup(page.text, 'html.parser')
     print("type: ", type(soup1))
     return soup1
+def get_soup2(url2):
+    page = requests.get(url2)
+    soup2 = BeautifulSoup(page.text, 'html.parser')
+    print("type: ", type(soup2))
+    return soup2
+def get_soup3(url3):
+    page = requests.get(url3)
+    soup3 = BeautifulSoup(page.text, 'html.parser')
+    print("type: ", type(soup3))
+    return soup3
 
 def get_playable_podcast1(soup1):
     subjects = []
